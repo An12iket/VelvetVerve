@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #212121;
+    flex-direction: row;
+    align-items: center;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+}
+.navbar a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.main-img{
+    position: absolute;
+    top: 8%;
+    left: 48%;
+    width: 690px;
+    height: 585px;
+}
+.landing-section{
+    height:465px;
+    background-color: #302f2f;
+}
+.quality{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    height: 110px;
+    background-color: #efd7ad;
+}
+.quality img{
+    margin-top: 28px;
+    margin-right: 95px;
+}
+.quality-text{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 4.5%;
+    font-size: 13px;
+}
+.welcome-section{
+    background-color: #212121;
+    height: 700px;
+    width: 100%;
+}
+.welcome-section h1{
+    position: absolute;
+    top:110%;
+    left: 39%
+}
+.welcome-section pre{
+    font-family: system-ui;
+    position: absolute;
+    top:120%;
+    left:35% ;
+}
+.membBtn{
+    font-family: sans-serif;
+    height: 42px;
+    width: 138px;
+    border-radius: 23px;
+    font-size: 12px;
+    background-color: #efd7ad;
+    position: absolute;
+    top:149%;
+    left:39% ;
+    cursor: pointer;
+}
+.services{
+    height: 730px;
+    margin-top: 165px;   
+    background-color:#efd7ad;
+} 
+.inside_sect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image-sect img{
+    margin-top: 12%;
+    height: 300px;
+    width: 210px;
+}
+.inside_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.container_dest h1{
+    font-family: sans-serif;
+    font-size: 45px;
+    position: absolute;
+    top:2270px;
+    left: 32%;
+    right: 32%;
+}
+.container_dest p{
+    font-size: 15px;
+    position: absolute;
+    top:2395px;
+    left: 28%;
+    right: 28%;
+}
+.container_dest h2{
+    font-size: 15px;
+    position: absolute;
+    top:2690px;
+    left: 8%;
+    right: 28%;
+}
+.program_details{
+    position: absolute;
+    top:55px;
+    left: 8%;
+    right: 28%; 
+}
+.buttons{
+    position: absolute;
+    top:2755px;
+    left: 8%;
+    /* right: 1px; */
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.btn button{
+    font-family: sans-serif;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px; 
+    border: 1px solid #efd7ad;  
+}
+.button_pro:hover{
+    cursor: pointer;
+    background-color: #efd7ad;
+    color: black;
+}
+.adv_container{
+    height: 750px;
+    background-color: #efd7ad;
+}
+.img_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15%;
+}
+.text_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    font-size: 33px;
+}
+.booking_cont{
+    height: 1155px;
+    background-color: #212121;
+}
+.book_slot{
+    align-items: center;
+    position: absolute;
+    left: 7%;
+    right: 60%;
+    top: 3920px;
+    height: 405px;
+    width: 1100px;
+    background-color: #efd7ad;
+}
+
